@@ -1,7 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"prodconsum-go/consumer"
+	"prodconsum-go/producer"
+)
 
 func main() {
-	fmt.Println("init")
+	// producer
+	p := producer.NewProducer{}
+	p.CreateProducer()
+
+	// consumer
+	c := consumer.NewConsumer{}
+	c.CreateConsumer()
 }
