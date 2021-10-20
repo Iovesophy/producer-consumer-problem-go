@@ -3,15 +3,24 @@ package consumer
 import "fmt"
 
 var (
-	_ Consumer = (*NewConsumer)(nil)
+	_ Consumer = (*NewSampleConsumer)(nil)
 )
 
-type NewConsumer struct{}
-
-type Consumer interface {
-	CreateConsumer()
+type NewSampleConsumer struct {
+	Msgs  *chan int
+	Count int
 }
 
-func (c *NewConsumer) CreateConsumer() {
-	fmt.Println("consumer")
+type Consumer interface {
+	CreateSampleConsumer()
+}
+
+// Set Visibility-Flow of Consumer recieving chan value for test
+func (c *NewSampleConsumer) CreateSampleConsumer() {
+	fmt.Println("start consumer")
+	for {
+		msg := <-*c.Msgs
+		fmt.Println("consume: Received:", msg)
+		c.Count++
+	}
 }
