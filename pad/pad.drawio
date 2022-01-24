@@ -1,0 +1,156 @@
+<mxfile host="65bd71144e">
+    <diagram id="f5AHTCZmxtioPtxu0Aem" name="ページ1">
+        <mxGraphModel dx="786" dy="474" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;font style=&quot;font-size: 12px&quot;&gt;スタート&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="77" y="136" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;font style=&quot;font-size: 12px&quot;&gt;エンド&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="77" y="315" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#050505;" parent="1" source="3" target="2" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="87" y="275" as="sourcePoint"/>
+                        <mxPoint x="137" y="225" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="排他ロックを解除" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="137" y="279" width="193" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="プロデューサー" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="77" y="109" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;font style=&quot;font-size: 12px&quot;&gt;スタート&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="77" y="441.25" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;font style=&quot;font-size: 12px&quot;&gt;エンド&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="77" y="623" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#050505;" parent="1" source="18" target="17" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="87" y="593.25" as="sourcePoint"/>
+                        <mxPoint x="137" y="543.25" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="コンシューマー" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="77" y="414" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(29 , 28 , 29) ; font-family: &amp;#34;notosansjp&amp;#34; , , &amp;#34;applelogo&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;変数 buf の長さが&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#1d1c1d&quot;&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(255 , 255 , 255)&quot;&gt;0 である&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=20;notch2=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;flipH=1;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="137" y="207.5" width="193" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(29 , 28 , 29) ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;変数 buf の長さが&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(29 , 28 , 29) ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;1 以上である&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=20;notch2=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;flipH=1;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="137" y="514.25" width="188" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="排他ロック" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="137" y="171" width="193" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="排他ロックを解除" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="137" y="587" width="188" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="変数 v に変数 buf の末尾の&lt;br&gt;要素を代入" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="333" y="514.25" width="209" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="" style="endArrow=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;strokeColor=#050505;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="102" target="108" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="595" y="576" as="sourcePoint"/>
+                        <mxPoint x="599" y="648.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="108" value="変数 buf の末尾の&lt;br&gt;要素を削除" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="333" y="579" width="209" height="56" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="排他ロック" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="137" y="477.25" width="187" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="&lt;font style=&quot;font-size: 12px&quot;&gt;スタート&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="77" y="772.75" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="メイン" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="77" y="745" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="&lt;font style=&quot;font-size: 12px&quot;&gt;エンド&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="77" y="920" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#050505;" parent="1" source="120" target="118" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="87" y="910" as="sourcePoint"/>
+                        <mxPoint x="137" y="779.75" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="122" value="コンシューマーのスレッドを起動" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="355" y="899" width="206" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" value="プロデューサーのスレッドを起動" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="355" y="863.5" width="206" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="グローバル変数として buf を定義する&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E3%83%81%E3%83%A3%E3%83%8D%E3%83%AB%E3%82%92%E5%AE%A3%E8%A8%80%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontColor%3D%23333333%3BstrokeColor%3D%23050505%3BfillColor%3D%23FFFFFF%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2270%22%20y%3D%22937%22%20width%3D%22200%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphMod&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="137" y="809.75" width="209" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="" style="endArrow=none;html=1;strokeColor=#050505;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="177" target="32" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="363" y="92" as="sourcePoint"/>
+                        <mxPoint x="375" y="169" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="138" value="" style="swimlane;horizontal=0;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="137" y="846" width="210" height="65" as="geometry">
+                        <mxRectangle x="353" y="320" width="24" height="139" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="139" value="&lt;font color=&quot;#333333&quot;&gt;true&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="138" vertex="1">
+                    <mxGeometry x="91.25" y="21.5" width="31" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="141" value="" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#050505;" parent="1" source="124" target="138" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="147" y="1006" as="sourcePoint"/>
+                        <mxPoint x="147" y="815" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="144" value="" style="endArrow=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#050505;" parent="1" source="124" target="122" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="615" y="822" as="sourcePoint"/>
+                        <mxPoint x="615.0000000000001" y="1014" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="150" value="変数 v を&lt;br&gt;変数 buf の末尾に追加" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="337" y="244.5" width="211" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="165" value="" style="endArrow=none;html=1;strokeColor=#050505;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.089;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="150" target="173" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="293" y="370.5" as="sourcePoint"/>
+                        <mxPoint x="310" y="336" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="172" value="" style="endArrow=none;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#050505;exitX=0;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="34" target="102" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="335" y="553.75" as="sourcePoint"/>
+                        <mxPoint x="329" y="544" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="173" value="変数 buf , 文字列 &quot;&amp;lt;&quot; , 変数 v&amp;nbsp;&lt;br&gt;を表示" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="337" y="314.5" width="211" height="39.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="177" value="変数 v にAからZのランダムなアルファベット1文字を代入" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="337" y="207.5" width="211" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="178" value="" style="endArrow=none;html=1;strokeColor=#050505;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="150" target="177" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="347" y="293.5" as="sourcePoint"/>
+                        <mxPoint x="305" y="217.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="179" value="" style="endArrow=none;html=1;strokeColor=#050505;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="180" target="108" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="333" y="721.5" as="sourcePoint"/>
+                        <mxPoint x="350" y="189" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="180" value="変数 buf , 文字列 &quot;&amp;gt;&quot; , 変数 v&amp;nbsp;&lt;br&gt;を表示" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#050505;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="333" y="640" width="209" height="39.5" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
