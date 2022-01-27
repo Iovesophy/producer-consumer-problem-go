@@ -42,7 +42,7 @@ func consumer() {
 
 func main() {
 	for {
-		producer()
-		consumer()
+		go producer()
+		go consumer()
 	}
 }
