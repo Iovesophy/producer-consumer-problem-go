@@ -13,6 +13,6 @@ This program resolve producer consumer problem.
 - Item should be a random character from A to Z
 
 # License
-Copyright (c) 2022 Kazuya yuda.
+Copyright (c) 2022 Iovesophy.
 This software is released under the MIT License, see LICENSE.
 https://opensource.org/licenses/mit-license.php
